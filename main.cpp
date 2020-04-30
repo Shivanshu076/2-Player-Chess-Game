@@ -3,8 +3,8 @@
 #include <string>
 using namespace std;
 
-enum Piece { KING, QUEEN, BISHOP, KNIGHT, ROOK, PAWN, EMPTY };
-enum Color { WHITE, BLACK, NONE };
+enum Piece { KING, QUEEN, BISHOP, KNIGHT, ROOK, PAWN, EMPTY };      // Pieces.
+enum Color { WHITE, BLACK, NONE };                                  // Colors.
 
 class Square
 {
